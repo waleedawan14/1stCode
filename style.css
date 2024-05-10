@@ -1,0 +1,118 @@
+.c-item{
+  padding-top: 50px;
+    height: 600px;
+}
+.but{ 
+  text-align: center;
+}
+.c-img{
+ height: 100px;
+ object-fit: cover;
+}
+.carousel-indicators {
+    bottom: 10px;
+  }
+  .navbar {
+    border-width: 10px;
+    border-bottom: solid #fca503;
+}
+.logo{
+    text-shadow: 2px 2px 2px#fca503, -2px -2px 2px #a40000;
+    font-style: bold;
+}
+  .customfont{
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .carousel-indicators li {
+    background-color: #ccc;
+    border: 1px solid #777;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333;
+  }
+  .contact-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    transition: transform 0.3s ease-in-out;
+
+    
+  }
+  .text{
+    font-weight: 900;
+    padding-top: 40px;
+  }
+  
+  .contact-btn:hover {
+    transform: scale(1.1);
+  }
+  .required {
+    color: red;
+  }
+  .carousel-caption {
+    color: rgb(114, 192, 206);
+  }
+  
+  .carousel-caption h5 {
+    color: #fff;
+  }
+  
+  .carousel-caption p {
+    color: #ccc;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 50px; /* Adjust the size of the control buttons */
+    height: 50px; /* Adjust the size of the control buttons */
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    border-radius: 50%; /* Make the control buttons round */
+    top: 50%; /* Position the control buttons at 50% from the top */
+    transform: translateY(-50%); /* Center the control buttons vertically */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    font-size: 30px; /* Adjust the size of the arrow */
+    color: #fff; /* Set the color of the arrow */
+    line-height: 50px; /* Center the arrow vertically */
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+  .contact-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.contact-popup h3 {
+    margin-top: 0;
+}
+
+.contact-popup form {
+    margin-bottom: 0;
+}
+
+.required {
+    color: red;
+}
